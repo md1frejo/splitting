@@ -60,6 +60,7 @@ int main(int argc, char* argv[]) {
   ff=fopen(path3,"rt");
   char *dir2=calloc(100,sizeof(char));
   //char dir2[100];
+  //  printf("%s\n",path3);
   while(fgets(prodec_in,30,ff)) {
 
     if(j==0) {
